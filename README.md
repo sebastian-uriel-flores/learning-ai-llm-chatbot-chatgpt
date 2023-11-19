@@ -45,3 +45,7 @@ Install other dependencies:
 ```bash
 sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
+
+## Completions vs Chat Completions
+
+![Alt text](completions-vs-chat_completions.webp)
