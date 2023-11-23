@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "created_at": 1700411773,
+      "fine_tuned_model": "davinci:ft-sebastian-uriel-flores-2023-11-19-16-42-36",
+      "hyperparams": {
+        "batch_size": 1,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-esDFB0hE46Y1DJ6pEfXEIu5U",
+      "model": "davinci",
+      "object": "fine-tune",
+      "organization_id": "org-dXOyakJknujDEAT3q2cVFgTb",
+      "result_files": [
+        {
+          "bytes": 38436,
+          "created_at": 1700412157,
+          "filename": "compiled_results.csv",
+          "id": "file-LbcD5aFwGswM9Y5ofUj1PF0K",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 49731,
+          "created_at": 1700411773,
+          "filename": "data_prepared.jsonl",
+          "id": "file-rwgZsBrj4H9ruIiPsvy0osRP",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1700412158,
+      "validation_files": []
+    }
+  ],
+  "next_starting_after": null,
+  "object": "list"
+}
